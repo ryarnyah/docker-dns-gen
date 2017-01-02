@@ -1,5 +1,5 @@
-FROM alpine:latest
-MAINTAINER Jérémy Derussé "jeremy@derusse.com"
+FROM alpine:3.4
+MAINTAINER Ryar Nyah "ryarnyah@gmail.com"
 
 RUN apk --no-cache add \
     dnsmasq \
